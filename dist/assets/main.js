@@ -1,1 +1,1 @@
-document.getElementById('root').innerText='⚔️ VirtualWarfare Docs (Preview Build)';
+document.getElementById('root').innerText='⚔️ VirtualWarfare Docs (Deployed Build)';

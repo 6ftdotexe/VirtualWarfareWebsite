@@ -1,15 +1,13 @@
 # ⚔️ VirtualWarfareWebsite
 
-## Run
+## Run locally
 ```bash
 npm install
 npm run dev
 ```
-Open http://localhost:5173
 
-## Deploy
-```bash
-npm run ship
-```
-This auto-commits, pushes, builds, copies 404.html, and publishes to GitHub Pages.
-Live at: https://<username>.github.io/VirtualWarfareWebsite/
+## Deploy (auto)
+Push to `main` → GitHub Actions builds and publishes to Pages automatically.
+
+Site will be live at:
+https://<username>.github.io/VirtualWarfareWebsite/
