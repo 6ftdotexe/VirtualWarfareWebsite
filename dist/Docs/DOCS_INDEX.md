@@ -1,1 +1,0 @@
-# Index\n- HOME\n- GAME_MODES\n- WEAPONS

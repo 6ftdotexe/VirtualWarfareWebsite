@@ -1,1 +1,0 @@
-# Home\nWelcome to VirtualWarfare docs.
