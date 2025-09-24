@@ -1,0 +1,32 @@
+{
+  "name": "virtualwarfarewebsite",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && cp dist/index.html dist/404.html && gh-pages -d dist",
+    "ship": "bash -c 'git add . && git commit -m \"${1:-auto-ship update}\" || echo \"no changes\" && git push && npm install && npm run deploy' --"
+  },
+  "dependencies": {
+    "fuse.js": "^7.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
+    "react-markdown": "^9.0.0",
+    "react-router-dom": "^6.22.0",
+    "mermaid": "^10.9.0",
+    "nprogress": "^0.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.16",
+    "gh-pages": "^6.0.0",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "vite": "^5.0.0"
+  }
+}
