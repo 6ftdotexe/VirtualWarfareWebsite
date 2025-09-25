@@ -1,5 +1,4 @@
-# Index
-- HOME
-- GAME_MODES
-- WEAPONS
-- README
+# Docs Index
+- [Home](HOME.md)
+- [Game Modes](GAME_MODES.md)
+- [Weapons](WEAPONS.md)

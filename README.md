@@ -1,19 +1,13 @@
-# ⚔️ VirtualWarfareWebsite
+# VirtualWarfareWebsite
 
-[![Deploy VirtualWarfareWebsite](https://github.com/<your-username>/VirtualWarfareWebsite/actions/workflows/deploy.yml/badge.svg)](https://github.com/<your-username>/VirtualWarfareWebsite/actions/workflows/deploy.yml)
+This is the VirtualWarfareWebsite React project.
 
-## Run locally
-```bash
-npm install
-npm run dev
-```
-Open http://localhost:5173
+## Development
+- `npm install`
+- `npm run dev`
 
-## Deploy (auto)
-Push to `main` → GitHub Actions builds and publishes to `gh-pages` automatically.
-Then enable **Settings → Pages → Source: gh-pages (root)**.
+## Build & Deploy
+- `npm run build`
+- GitHub Actions auto-deploys to gh-pages.
 
-Live at:
-```
-https://<your-username>.github.io/VirtualWarfareWebsite/
-```
+![Deploy](https://github.com/USERNAME/VirtualWarfareWebsite/actions/workflows/deploy.yml/badge.svg)

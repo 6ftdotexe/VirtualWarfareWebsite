@@ -1,4 +1,11 @@
-# 📚 VirtualWarfare Documentation Home
+# VirtualWarfare Documentation
+Welcome to the docs.
 
-Welcome to the **VirtualWarfare** docs hub. Use the sidebar to navigate.
-
+## Example Diagram
+```mermaid
+sequenceDiagram
+  participant A as Attacker
+  participant D as Defender
+  A->>D: Engage
+  D->>A: Counter
+```
